@@ -368,7 +368,7 @@ class SecpolGenerator:
         self.add_to_secpol(''.join(["allow ", self.secpol_type, " self:ability {"]))
 
         if is_root_ability == 0:
-            self.add_to_secpol("nonroot,")
+            self.add_to_secpol("nonroot")
 
         for ability, req_functions in self.abilities_list.items():
             for func_args_list in function_with_args.values():
