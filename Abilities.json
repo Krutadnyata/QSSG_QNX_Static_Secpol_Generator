@@ -1,0 +1,73 @@
+
+  {
+    "able_create": [
+      "procmgr_ability_create",
+      "procmgr_ability_lookup"
+    ],
+    "chroot": [
+      "chroot"
+    ],
+    "connection": [
+      "TimerCreate",
+      "timer_create",
+      "MsgSendPulse",
+      "MsgSendPulsePtr"
+    ],
+    "default_timer_tolerance": [
+      "procmgr_timer_tolerance"
+    ],
+    "fork": [
+      "daemon",
+      "fork"
+    ],
+    "getid": [
+      "getpgid",
+      "getsid"
+    ],
+    "high_resolution_timer": [
+      "timer_settime",
+      "timer_timeout",
+      "TimerSettime",
+      "TimerTimeout"
+    ],
+    "mem_special": [
+      "shm_ctl_special"
+    ],
+    "pathspace": [
+      "pathmgr_symlink",
+      "resmgr_attach"
+    ],
+    "reboot": [
+      "sysmgr_reboot"
+    ],
+    "rsrcdbmgr": [
+      "rsrcdbmgr_attach",
+      "rsrcdbmgr_create",
+      "rsrcdbmgr_devno_attach",
+      "rsrcdbmgr_devno_detach",
+      "rsrcdbmgr_detach",
+      "rsrcdbmgr_destroy"
+    ],
+    "spawn": [
+      "exec",
+      "spawn",
+      "posix_spawn"
+    ],
+    "srandom": [
+      "SysSrandom"
+    ],
+    "trace": [
+      "TraceEvent"
+    ],
+    "wait": [
+      "wait",
+      "wait3",
+      "wait4",
+      "waitid",
+      "waitpid"
+    ],
+    "xprocess_able": [
+      "procmgr_ability"
+    ]
+  }
+

@@ -1,0 +1,8 @@
+{
+  "source_file_path": "Path of the source code file",
+  "qcc_path": "Path of the QNX compiler e.g. /home/user1/qnx800/host/linux/x86_64/usr/bin/qcc",
+  "include_paths":"list of all include path e.g. -I/qnx800/target/qnx/usr/include -I/qnx800/host/linux/x86_64/usr/include",
+  "is_root": "1/2/3.1 If process is running as root, 2 If process is running as nonroot, 3 If process if started as root and then drop to nonroot",
+  "entry_function": "Entry function from where the flow of code starts e.g. main",
+  "process_name": "Process name e.g.sample_resource_mgr"
+}
